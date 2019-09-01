@@ -1,5 +1,4 @@
-#### 改造了一下KindEditor编辑器的filemanager组件
-[官方下载地址](http://kindeditor.net/demo.php)
+#### 改造了一下[KindEditor](http://kindeditor.net/demo.php)编辑器的filemanager组件
 1. 美化了文件管理界面
 2. 新增任意位置创建文件夹功能
 3. 新增任意位置上传、批量上传功能
