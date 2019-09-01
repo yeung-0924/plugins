@@ -1,0 +1,10 @@
+pre.prettyprint {
+    display: block;
+    margin: 0.1em 0;
+    padding: 0.1em 1em;
+    border: 1px solid #F0F0F0;
+    background-color: #F8F8F8;
+    font-size: 120%;
+    font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+    white-space: pre-wrap;
+}

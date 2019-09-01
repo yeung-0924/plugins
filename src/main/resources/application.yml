@@ -1,0 +1,25 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /kindeditor
+    session:
+      timeout: 8H
+
+spring:
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+  mvc:
+    view:
+      prefix: /
+      suffix:
+    favicon:
+      enabled: false
+  devtools:
+    restart:
+      enabled: false
+  output:
+    ansi:
+      enabled: always

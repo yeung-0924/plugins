@@ -1,0 +1,45 @@
+pre .str, code .str { color: #fec243; }
+pre .kwd, code .kwd { color: #8470FF; }
+pre .com, code .com { color: #32cd32; font-style: italic; }
+pre .typ, code .typ { color: #6ecbcc; }
+pre .lit, code .lit { color: #d06; }
+pre .pun, code .pun { color: #8B8970; }
+pre .pln, code .pln { color: #f0f0f0; }
+pre .tag, code .tag { color: #9c9cff; }
+pre .htm, code .htm { color: #dda0dd; }
+pre .xsl, code .xsl { color: #d0a0d0; }
+pre .atn, code .atn { color: #46eeee; font-weight: normal; }
+pre .atv, code .atv { color: #EEB4B4; }
+pre .dec, code .dec { color: #3387CC; }
+
+ol.linenums { margin-top: 0; margin-bottom: 0; color: #8B8970; }
+li.L0,li.L1,li.L2,li.L3,li.L4,li.L5,li.L6,li.L7,li.L8,li.L9 { list-style-type: decimal; }
+
+@media print {
+  pre.prettyprint, code.prettyprint { background-color: #fff; }
+  pre .str, code .str { color: #088; }
+  pre .kwd, code .kwd { color: #006; font-weight: bold; }
+  pre .com, code .com { color: #0c3; font-style: italic; }
+  pre .typ, code .typ { color: #404; font-weight: bold; }
+  pre .lit, code .lit { color: #044; }
+  pre .pun, code .pun { color: #440; }
+  pre .pln, code .pln { color: #000; }
+  pre .tag, code .tag { color: #b66ff7; font-weight: bold; }
+  pre .htm, code .htm { color: #606; font-weight: bold; }
+  pre .xsl, code .xsl { color: #606; font-weight: bold; }
+  pre .atn, code .atn { color: #c71585; font-weight: normal; }
+  pre .atv, code .atv { color: #088; font-weight: normal; }
+}
+
+pre.prettyprint {
+  display: block;
+  margin: 0.1em 0;
+  padding: 0.1em 1em;
+  border: 0;
+  border-radius: 8px;
+  background: #000000;
+  font-size: 100%;
+  font-family: 'Droid Sans Mono', 'CPMono_v07 Bold', 'Droid Sans', serif;
+  font-weight: bold;
+  white-space: pre-wrap;
+}
